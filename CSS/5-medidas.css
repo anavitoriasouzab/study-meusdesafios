@@ -1,0 +1,66 @@
+/*
+    UNIDADES DE MEDIDAS
+
+    ---> ABSOLUTAS
+        px (pixels)
+        in (inches/polegadas)
+        cm / mm (centímetro / milímetro)
+
+    ---> RELATIVAS
+        %  → calcula o tamanho relativo ao elemento pai
+        vw (view width) → 1vw é 1% da largura da janela do navegador
+        vh (view height) → 1vh é 1% da altura da janela do navegador
+        em → é uma unidade relativa ao elemento pai
+        rem → é uma unidade relativa ao elemento raiz
+
+Claro! As anotações da imagem são:
+
+```css
+
+    UNIDADES DE MEDIDAS
+
+    ---> ABSOLUTAS
+        px (pixels)
+        in (inches/polegadas)
+        cm / mm (centímetro / milímetro)
+
+    ---> RELATIVAS
+        %  → calcula o tamanho relativo ao elemento pai
+        vw (view width) → 1vw é 1% da largura da janela do navegador
+        vh (view height) → 1vh é 1% da altura da janela do navegador
+        em → é uma unidade relativa ao elemento pai
+        rem → é uma unidade relativa ao elemento raiz
+*/
+/*
+### Resumo rápido
+
+* **px**: tamanho fixo.
+* **%**: depende do tamanho do elemento pai.
+* **vw**: relativo à largura da tela.
+* **vh**: relativo à altura da tela.
+* **em**: relativo ao tamanho da fonte do elemento pai.
+* **rem**: relativo ao tamanho da fonte definido no elemento raiz (`html`).
+
+Exemplo:
+
+```css
+.container {
+    width: 50%;
+}
+
+.titulo {
+    font-size: 2rem;
+}
+
+.banner {
+    width: 100vw;
+    height: 100vh;
+}
+```
+
+Isso faria:
+
+* `.container` ocupar 50% da largura do pai.
+* `.titulo` ter fonte 2 vezes maior que a fonte raiz.
+* `.banner` ocupar toda a largura e altura da tela.
+*/

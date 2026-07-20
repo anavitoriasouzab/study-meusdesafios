@@ -1,0 +1,45 @@
+/* PSEUDO - ELEMENTOS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input {
+    border: 1px solid red;
+    color: blue;
+
+}
+
+input::placeholder {
+    color: #bb3333;
+}
+
+p {
+    color: blue;
+}
+/*PRIMEIRA LETRA*/
+P::first-letter{
+color: #bb3333;
+
+}
+
+/*PRIMEIRA LINHA É O FIRST LINE*/
+
+p::first-line{
+    color: blueviolet;
+}
+
+a::before {
+    content: "🥳";
+}
+
+
+a::after {
+    content: "🎉";
+}
+a:hover{
+    color: rgb(192, 18, 18);
+}
+/*a::after ou a::before (ANTES OU DEPOIS)/*
