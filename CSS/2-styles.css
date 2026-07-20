@@ -1,0 +1,160 @@
+
+/*
+    /* obrigatorioooo o { */
+    /*
+h1 {
+    color: rgb(255, 255, 255);
+
+
+}
+p{ color:rgb(255, 255, 255); 
+font-size: 20px;
+}
+
+button{
+color: rgb(0, 0, 0);
+font-size: x-large;
+border-color: rgb(238, 161, 199);
+}*/
+
+/* o "*" serve como um seletor geral de tudo nesse caso:*/
+/*h1 {
+    
+ color: rgb(175, 48, 48);
+                     /* font-size: 20px; /*troca o tamanho do texto*/
+                   /*font-family: 'Roboto', sans-serif; /*tipo e familia da fonte*/
+                    /*font-weight: bolder; /*peso da fonte*/
+                    /*font-style: italic; /*estilo da fonte*/
+                    /*line-height: 50px; /*altura da linha*/
+                    /*letter-spacing: 1px; /*distancia entre letras*/
+                    /*word-spacing: 5px;/*espaçamento entre palavras*/
+                    /*text-align: justify; /*alinhamento do texto*/
+                    /*text-transform:capitalize;
+
+                        /* controla o formato de texto:
+                        uppercase: Transforma todas as letras em maiúsculas.
+                        lowercase: Transforma todas as letras em minúsculas.
+                        capitalize: Deixa a primeira letra de cada palavra em maiúscula.
+                        none: Mantém o texto exatamente como foi digitado no HTML. */
+                    /* text-decoration:underline;
+                        /*é usada para adicionar ou remover linhas decorativas em textos.
+                        Ela é muito utilizada para sublinhar títulos, criar efeitos de
+                        texto riscado ou remover o sublinhado padrão de links*/
+
+                   /* text-shadow: 5px 5px 20px #ff0000;
+                    /*é usada para adicionar ou remover linhas decorativas em textos. 
+                    Ela é muito utilizada para sublinhar títulos, 
+                    criar efeitos de texto riscado ou remover o 
+                    sublinhado padrão de links
+            }
+        */
+
+/*
+        *{ 
+            box-sizing: border-box;
+
+
+        }
+/*
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: rgb(255, 0, 119);
+            padding:20px;
+            border:10px solid royalblue ;
+        }/*
+      
+        /*box sizing::
+        ele vai somando os valores e faz com que fique naquele tamanho (se adaptando ao width e hiegth que vc delimitou */
+
+        .box {
+            background: #ff1395;
+            height: 200px;
+            width: 200px;
+           
+            
+        }
+        .box-2 {
+            background: rgb(162, 185, 30);
+            height: 100px;
+            width: 100px;
+        }
+
+        .box-3 {
+            background: rgb(18, 224, 11);
+            height: 100px;
+            width: 100px;
+        }
+
+
+        /*
+DISPLAY
+se eu n colocar nada ele ja incia como display block
+
+-- BLOCK
+-- INLINE : nao aceita que define largura e altura pois ele vai se adaptar ao conteudo;
+-- INLINE-BLOCK
+
+-- GRID
+-- FLEX
+
+
+-- BLOCK
+
+..... Vem como padrão: div, section, p, h1, h2, ul, li, article...
+
+..... Ocupa 100% da largura do elemento pai
+..... Sempre ocupa toda a sua linha
+..... Altura definida de acordo com o conteúdo
+..... Podemos definir height e width
+..... Podemos definir valores de margin
+-- INLINE
+
+..... Vem como padrão: a, span, b, i...
+
+..... Elementos em linha
+..... Não permite alterar height e width
+..... Não podemos definir valores de margin-top e margin-bottom
+..... Ganha comportamento de uma palavra
+
+
+-- INLINE-BLOCK
+
+..... Elementos em linha, porém com característica do display Block
+..... Altura e largura podem ser alteradas
+
+complemento:
+xplicação rápida
+
+Block
+
+Ocupa toda a largura disponível do elemento pai.
+Sempre inicia em uma nova linha.
+Aceita width, height, margin e padding.
+Exemplos: div, section, p, h1, h2, ul, li, article.
+
+Inline
+
+Ocupa apenas o espaço necessário ao conteúdo.
+Não quebra linha automaticamente.
+Não aceita width e height.
+Exemplos: span, a, strong, em.
+
+Inline-block
+
+Fica na mesma linha que outros elementos.
+Aceita width e height.
+Combina características de inline e block.
+
+Flex
+
+Sistema de layout unidimensional.
+Organiza elementos em linha ou coluna.
+Facilita alinhamento e distribuição de espaço.
+
+Grid
+
+Sistema de layout bidimensional.
+Trabalha com linhas e colunas.
+Ideal para layouts mais complexos.
+*/
